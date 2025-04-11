@@ -1,9 +1,15 @@
 import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import banner from "../assets/images/banner2.jpg";
 import "./Home.css"; 
 
 function Home() {
+  
+  useEffect(() => {
+    document.title = 'Home';
+  }, []);
+
   return (
     <section className="home">
       <div className="home-body">

@@ -1,7 +1,13 @@
 import React from "react";
+import { useEffect } from "react";
 import "./Contact.css";
 
 function Contact() {
+
+    useEffect(() => {
+        document.title = 'Contact';
+    }, []);
+
     return (
         <>
             <h1>Contact</h1>

@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Cart.css";
 
 function Cart() {
+
+    useEffect(() => {
+        document.title = 'Cart';
+    }, []);
+
     const [cartItems, setCartItems] = useState([]);
 
     useEffect(() => {

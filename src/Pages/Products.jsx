@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import product1 from "../assets/images/product.jpg";
 import product2 from "../assets/images/product1.jpg";
 import product3 from "../assets/images/product2.jpg";
@@ -13,6 +14,10 @@ const products = [
 ];
 
 function Products() {
+
+    useEffect(() => {
+        document.title = 'Product';
+    }, []);
 
     const addToCart = (product) => {
         let cart = JSON.parse(localStorage.getItem("cart")) || [];
