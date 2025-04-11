@@ -1,0 +1,58 @@
+.home-body {
+    background-color: hsla(0, 0%, 100%, 0.664);
+    max-width: 75%;
+    height: 22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.home-body img {
+    width: 32rem;
+    height: 21rem;
+    border-radius: 1rem;
+}
+
+.home-left {
+    font-size: 1.4rem;
+    max-width: 43%;
+}
+
+.home-body h1 {
+    color:  hsla(246, 85%, 52%, 0.979);
+    margin-bottom: 1rem;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color:  hsla(246, 85%, 52%, 0.979);
+    font-size: 1.2rem;
+    border-radius: 0.4rem;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.explore-btn:hover {
+    background-color:  hsla(246, 75%, 42%, 0.979);
+}
+
+.normal-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: hsla(0, 0%, 100%, 0.664);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
